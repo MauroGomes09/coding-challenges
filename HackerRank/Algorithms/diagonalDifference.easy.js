@@ -41,8 +41,6 @@ function diagonalDifference(arr) {
 }
 
 function main() {
-    const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
-
     const n = parseInt(readLine().trim(), 10);
 
     let arr = Array(n);
@@ -52,8 +50,5 @@ function main() {
     }
 
     const result = diagonalDifference(arr);
-
-    ws.write(result + '\n');
-
-    ws.end();
+    console.log(result)
 }

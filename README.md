@@ -1,7 +1,5 @@
-# coding-challenges
-Solutions for algorithmic challenges from HackerRank and LeetCode
-
 # Coding Challenges
+Solutions for algorithmic challenges from HackerRank and LeetCode
 
 Repositório dedicado ao estudo de Algoritmos e Estrutura de Dados.
 Aqui estão minhas soluções para desafios do **HackerRank** e **LeetCode**, implementadas em **JavaScript (Node.js)**.

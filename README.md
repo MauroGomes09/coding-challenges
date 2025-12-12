@@ -27,3 +27,7 @@ Este projeto utiliza um arquivo `input.txt` na raiz para simular a entrada de da
 ```powershell
 # O comando lê o input.txt e envia para o script via Pipe
 Get-Content input.txt | node hackerrank/algorithms/nome-do-arquivo.js
+```
+Nota Técnica: Os scripts foram adaptados para rodar localmente. A função main() imprime o resultado diretamente no console (console.log) em vez de gravar em variáveis de ambiente (OUTPUT_PATH) como no ambiente original do HackerRank.
+
+Mantido por Mauro Oliveira

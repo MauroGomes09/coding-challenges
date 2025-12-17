@@ -10,7 +10,7 @@ function miniMaxSum(arr) {
          
         console.log(miniSum, maxSum);
     } else {
-    console.log(`Array's size is incorrect, try again! Take care of the size, needs be between 1 <= arr[i] <= 10^9`);
+    console.log(`Array's size is incorrect, try again! Take care of the size, it needs to be between 1 and 10^9`);
     }
 }
 let arr = [1, 2, 3, 4, 5];
